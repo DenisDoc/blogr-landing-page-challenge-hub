@@ -87,9 +87,6 @@ picture {
   
     --gradiant-body-1:hsl(237, 17%, 21%);
     --gradiant-body-2:hsl(237, 23%, 32%);
-
-    --fontf-1:font-family:'Overpass', sans-serif;
-    --fontf-2:font-family:'Ubuntu', sans-serif;
   }
  
 /*---------------------------
@@ -122,7 +119,7 @@ picture {
   margin: 1rem 0rem ;
 }
 .accordion:after {
-  content: url(/images/icon-arrow-dark.svg); /* Unicode character for "plus" sign (+) */
+  content: url(../images/icon-arrow-dark.svg); /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   float: right;
 }
@@ -516,7 +513,7 @@ margin: -13rem 0rem 0rem -0rem;
     margin-left:2rem;
     }
     .accordion:after {
-      content: url(/images/icon-arrow-light.svg); /* Unicode character for "plus" sign (+) */
+      content: url(../images/icon-arrow-light.svg); /* Unicode character for "plus" sign (+) */
     }
     .nav-link{
       padding: 0px;
@@ -623,7 +620,7 @@ margin: -13rem 0rem 0rem -0rem;
   .main-top{
     align-items: flex-start;
     height:57rem;
-    background-image: url(/images/illustration-editor-desktop.svg);
+    background-image: url(../images/illustration-editor-desktop.svg);
     background-repeat: no-repeat;
     background-position: 45rem 0rem;
     background-size: contain;
@@ -694,7 +691,7 @@ margin: -13rem 0rem 0rem -0rem;
     align-items: flex-end;
     width: 100%;
     height:57rem;
-    background-image: url(/images/illustration-laptop-desktop.svg);
+    background-image: url(../images/illustration-laptop-desktop.svg);
     background-repeat: no-repeat;
     background-position: -21rem;
     background-size:70%;
